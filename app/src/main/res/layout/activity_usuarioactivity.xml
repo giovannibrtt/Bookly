@@ -7,17 +7,23 @@
     android:layout_height="match_parent"
     android:background="#D7CEAD"
     android:backgroundTint="#CCD7CEAD"
+    android:elevation="40dp"
     android:visibility="visible"
     tools:context=".Usuarioactivity">
 
     <View
         android:id="@+id/view2"
-        android:layout_width="384dp"
-        android:layout_height="877dp"
+        android:layout_width="397dp"
+        android:layout_height="820dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
         android:background="?android:attr/fastScrollPreviewBackgroundLeft"
         android:backgroundTint="#F5F0E3"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="23dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editText"
@@ -56,15 +62,16 @@
         android:layout_width="280dp"
         android:layout_height="63dp"
         android:backgroundTint="#3C8D84"
-        android:elevation="60dp"
+        android:elevation="80dp"
         android:fontFamily="@font/fredoka_one"
         android:text="Cadastrar"
+        android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71"
+        app:layout_constraintVertical_bias="0.812"
         app:rippleColor="#8BC8BD" />
 
     <com.google.android.material.textfield.TextInputEditText
@@ -75,7 +82,7 @@
         android:backgroundTint="#EFE6D4"
         android:elevation="8dp"
         android:fontFamily="@font/fredoka_one"
-        android:hint="Senha"
+        android:hint="CPF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -91,7 +98,7 @@
         android:backgroundTint="#EFE6D4"
         android:elevation="8dp"
         android:fontFamily="@font/fredoka_one"
-        android:hint="Senha"
+        android:hint="Telefone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -106,12 +113,13 @@
         android:backgroundTint="#E2B84B"
         android:fontFamily="@font/fredoka_one"
         android:text="Voltar para Menu"
+        android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.843"
+        app:layout_constraintVertical_bias="0.91"
         app:rippleColor="#D46448" />
 
     <TextView
@@ -126,7 +134,7 @@
         app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.091" />
+        app:layout_constraintVertical_bias="0.118" />
 
     <TextView
         android:id="@+id/textView5"
@@ -140,6 +148,32 @@
         app:layout_constraintHorizontal_bias="0.599"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintVertical_bias="0.199" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="248dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="?android:attr/fastScrollPreviewBackgroundLeft"
+        android:backgroundTint="#EFE6D4"
+        android:elevation="8dp"
+        android:ems="10"
+        android:fontFamily="@font/fredoka_one"
+        android:hint="Data Nascimento"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        app:layout_constraintVertical_bias="0.125" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

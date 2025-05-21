@@ -5,20 +5,86 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D2CD8C"
-    android:backgroundTint="#D2CD8C"
+    android:background="#D7CEAD"
+    android:backgroundTint="#D7CEAD"
     tools:context=".Bibliotecaactivity">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="384dp"
+        android:layout_height="877dp"
+        android:background="?android:attr/fastScrollPreviewBackgroundLeft"
+        android:backgroundTint="#F5F0E3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:elevation="20sp"
+        android:padding="8dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="90"
+        app:endIconCheckable="true"
+        app:endIconDrawable="@drawable/baseline_email_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/fastScrollPreviewBackgroundLeft"
+            android:backgroundTint="#EFE6D4"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:elevation="20dp"
+            android:fontFamily="@font/fredoka_one"
+            android:hint="   Nome" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/menuvoltar3"
-        android:layout_width="163dp"
-        android:layout_height="58dp"
-        android:backgroundTint="#96915A"
+        android:layout_width="276dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#E2B84B"
+        android:fontFamily="@font/fredoka_one"
         android:text="Voltar para Menu"
+        android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.852" />
+        app:layout_constraintVertical_bias="0.868" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:elevation="20sp"
+        android:padding="8dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/fastScrollPreviewBackgroundLeft"
+            android:backgroundTint="#EFE6D4"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:fontFamily="@font/fredoka_one"
+            android:hint="  E-mail" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

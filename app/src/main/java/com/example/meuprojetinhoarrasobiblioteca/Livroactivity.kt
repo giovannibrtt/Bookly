@@ -18,7 +18,7 @@ class Livroactivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val btnMenu2 = findViewById<Button>(R.id.menuvoltar2)
+        val btnMenu2 = findViewById<Button>(R.id.menuvoltar4)
         btnMenu2.setOnClickListener{
             // Toast.makeText(this, "Você clicou no cadastro de usuário", Toast.LENGTH_LONG).show()
             val intent = Intent (this,MainActivity::class.java)
