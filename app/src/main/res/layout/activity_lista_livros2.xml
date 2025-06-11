@@ -30,22 +30,23 @@
         android:fontFamily="@font/fredoka_one"
         android:text="Bookly"
         android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/cadusu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.536" />
 
-    <ListView
-        android:id="@+id/listalivros"
-        android:layout_width="374dp"
-        android:layout_height="424dp"
-        android:background="?android:attr/fastScrollPreviewBackgroundLeft"
-        android:backgroundTint="#EFE6D4"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewLivros"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:clipToPadding="false"
+        android:padding="16dp"
+        android:scrollbars="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.248" />
+        app:layout_constraintVertical_bias="0.187"
+        tools:listitem="@layout/item_livro" />
 </androidx.constraintlayout.widget.ConstraintLayout>
