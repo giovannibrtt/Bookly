@@ -13,16 +13,19 @@
         android:theme="@style/Theme.MeuProjetinhoArrasoBiblioteca"
         tools:targetApi="31">
         <activity
+            android:name=".ListaLivrosActivity2"
+            android:exported="false" />
+        <activity
             android:name=".Livroactivity"
             android:exported="false" />
         <activity
-            android:name=".Bibliotecaactivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Usuarioactivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Bibliotecaactivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -5,27 +5,114 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D2CD8C"
-    android:backgroundTint="#D2CD8C"
+    android:background="#D7CEAD"
+    android:backgroundTint="#D7CEAD"
     tools:context=".Livroactivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#B6B26F"
-        android:backgroundTint="#B6B26F"
+        android:background="#CCD7CEAD"
+        android:backgroundTint="#CCD7CEAD"
         android:visibility="visible"
         tools:context=".Usuarioactivity">
 
         <View
             android:id="@+id/view"
-            android:layout_width="378dp"
-            android:layout_height="822dp"
+            android:layout_width="397dp"
+            android:layout_height="820dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
             android:background="?android:attr/fastScrollPreviewBackgroundLeft"
-            android:backgroundTint="#D2CD8C"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="50dp" />
+            android:backgroundTint="#F5F0E3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.407"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText7"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/fastScrollPreviewBackgroundLeft"
+            android:backgroundTint="#EFE6D4"
+            android:elevation="8dp"
+            android:fontFamily="@font/fredoka_one"
+            android:hint="Autor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.365" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="280dp"
+            android:layout_height="63dp"
+            android:backgroundTint="#3C8D84"
+            android:elevation="80dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Cadastrar"
+            android:textSize="19sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.696"
+            app:rippleColor="#8BC8BD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText6"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/fastScrollPreviewBackgroundLeft"
+            android:backgroundTint="#EFE6D4"
+            android:elevation="8dp"
+            android:fontFamily="@font/fredoka_one"
+            android:hint="Título"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.263" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText2"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/fastScrollPreviewBackgroundLeft"
+            android:backgroundTint="#EFE6D4"
+            android:elevation="8dp"
+            android:fontFamily="@font/fredoka_one"
+            android:hint="ISBN"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.568" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText8"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/fastScrollPreviewBackgroundLeft"
+            android:backgroundTint="#EFE6D4"
+            android:elevation="8dp"
+            android:fontFamily="@font/fredoka_one"
+            android:hint="Ano Publicação"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.466" />
 
         <TextView
             android:id="@+id/textView8"
@@ -41,44 +128,19 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.136" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editText13"
-            android:layout_width="340dp"
-            android:layout_height="50dp"
-            android:background="?android:attr/fastScrollPreviewBackgroundLeft"
-            android:backgroundTint="#B6B26F"
-            android:hint="Título"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.492"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.288" />
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editText12"
-            android:layout_width="340dp"
-            android:layout_height="50dp"
-            android:background="?android:attr/fastScrollPreviewBackgroundLeft"
-            android:backgroundTint="#B6B26F"
-            android:hint="E-mail"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.492"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.429" />
-
         <Button
             android:id="@+id/menuvoltar4"
-            android:layout_width="163dp"
-            android:layout_height="58dp"
-            android:backgroundTint="#96915A"
+            android:layout_width="280dp"
+            android:layout_height="63dp"
+            android:backgroundTint="#E2B84B"
+            android:fontFamily="@font/fredoka_one"
             android:text="Voltar para Menu"
+            android:textSize="19sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.608" />
+            app:layout_constraintVertical_bias="0.838" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

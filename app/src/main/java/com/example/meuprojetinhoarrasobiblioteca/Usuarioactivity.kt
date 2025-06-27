@@ -19,9 +19,9 @@ class Usuarioactivity : AppCompatActivity() {
             insets
         }
         val btnMenu = findViewById<Button>(R.id.menuvoltar)
-        btnMenu.setOnClickListener{
+        btnMenu.setOnClickListener {
             // Toast.makeText(this, "Você clicou no cadastro de usuário", Toast.LENGTH_LONG).show()
-            val intent = Intent (this,MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
 
         }
