@@ -35,6 +35,7 @@
         android:elevation="80dp"
         android:fontFamily="@font/fredoka_one"
         android:text="Entrar"
+        android:textColor="#FFFFFF"
         android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +60,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82"
+        app:layout_constraintVertical_bias="0.75"
         app:rippleColor="#8BC8BD" />
 
     <com.google.android.material.textfield.TextInputEditText
@@ -71,6 +72,7 @@
         android:elevation="8dp"
         android:fontFamily="@font/fredoka_one"
         android:hint="Senha"
+        android:textColorHint="#9F988F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -87,6 +89,7 @@
         android:elevation="8dp"
         android:fontFamily="@font/fredoka_one"
         android:hint="Nome"
+        android:textColorHint="#9F988F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -111,6 +114,7 @@
         android:layout_height="69dp"
         android:fontFamily="@font/fredoka_one"
         android:text="Bookly"
+        android:textColor="#4D464E"
         android:textSize="52sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

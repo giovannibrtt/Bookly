@@ -23,9 +23,9 @@ class ListaLivrosActivity2 : AppCompatActivity() {
             insets
         }
         val listaLivros = listOf(
-            Livro("Dom Casmurro", R.drawable.meulivro),
-            Livro("O Pequeno Príncipe", R.drawable.meulivro),
-            Livro("1984", R.drawable.meulivro)
+            Livro("Dom Casmurro","Machado de Assis", R.drawable.domcasmurro),
+            Livro("Jogos Vorazes","Suzanne Collins", R.drawable.jogosvorazes),
+            Livro("1984","George Orwell",R.drawable.mil984)
         )
 
         recyclerViewLivros = findViewById(R.id.recyclerViewLivros)

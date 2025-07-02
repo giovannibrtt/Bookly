@@ -13,6 +13,7 @@ class LivroAdapter(private val listaLivros: List<Livro>) :
     class LivroViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val capaImageView: ImageView = itemView.findViewById(R.id.imgCapaLivro)
         val tituloTextView: TextView = itemView.findViewById(R.id.txtTituloLivro)
+        val autorTextView: TextView = itemView.findViewById(R.id.txtAutorLivro)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LivroViewHolder {
@@ -24,6 +25,7 @@ class LivroAdapter(private val listaLivros: List<Livro>) :
     override fun onBindViewHolder(holder: LivroViewHolder, position: Int) {
         val livro = listaLivros[position]
         holder.tituloTextView.text = livro.titulo
+        holder.autorTextView.text = livro.autor
         holder.capaImageView.setImageResource(livro.imagemResId)
     }
 

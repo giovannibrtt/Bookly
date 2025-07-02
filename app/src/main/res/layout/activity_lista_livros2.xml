@@ -8,12 +8,22 @@
     android:background="#F5F0E3"
     tools:context=".ListaLivrosActivity2">
 
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="412dp"
+        android:layout_height="57dp"
+        android:elevation="8dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="549dp" />
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/fredoka_one"
         android:text="Livros disponíveis"
+        android:textColor="#4D464E"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,16 +39,16 @@
         android:layout_marginTop="48dp"
         android:fontFamily="@font/fredoka_one"
         android:text="Bookly"
+        android:textColor="#4D464E"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.536" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewLivros"
-        android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_width="415dp"
+        android:layout_height="342dp"
         android:clipToPadding="false"
         android:padding="16dp"
         android:scrollbars="horizontal"
