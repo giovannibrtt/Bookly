@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     android:background="@android:color/transparent"
-    card_view:cardBackgroundColor="#F9C850"
+    card_view:cardBackgroundColor="#FFE4A8"
     card_view:cardCornerRadius="16dp"
     card_view:cardElevation="0dp">
 
@@ -39,9 +39,9 @@
             android:id="@+id/txtAutorLivro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
             android:gravity="center"
             android:text="Autor"
+            android:textAlignment="center"
             android:textColor="#4d464e"
             android:textSize="14sp" />
 

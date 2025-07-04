@@ -15,19 +15,10 @@
         android:padding="16dp">
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="206dp"
-            android:layout_height="119dp"
-            app:srcCompat="@drawable/livroslogo_removebg_preview" />
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/fredoka_one"
-            android:text="Bookly"
-            android:textColor="#4D464E"
-            android:textSize="52sp" />
+            android:id="@+id/imageView2"
+            android:layout_width="235dp"
+            android:layout_height="222dp"
+            app:srcCompat="@drawable/bookly_logo" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -50,12 +41,35 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/fredoka_one"
-            android:text="Mais livros"
+            android:text="Literatura Brasileira"
             android:textColor="#4D464E"
             android:textSize="28sp" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerViewMaisLivros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:scrollbars="horizontal" />
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Romances"
+            android:textColor="#4D464E"
+            android:textSize="28sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewMaisLivros2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"

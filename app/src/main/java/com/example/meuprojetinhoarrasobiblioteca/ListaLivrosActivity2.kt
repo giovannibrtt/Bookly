@@ -76,5 +76,29 @@ class ListaLivrosActivity2 : AppCompatActivity() {
         recyclerViewLivros = findViewById(R.id.recyclerViewMaisLivros)
         recyclerViewLivros.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         recyclerViewLivros.adapter = LivroAdapter(listalivros2)
+
+        val listalivros3 = listOf(
+            Livro("O Primo Basílio", "Eça de Queirós", R.drawable.o_primo_basilio),
+            Livro("Orgulho e Preconceito", "Jane Austen", R.drawable.orgulho_preconceito),
+            Livro("Romeu e Julieta", "William Shakespeare", R.drawable.romeu_julieta),
+            Livro("Anna Kariênina", "Liev Tolstói", R.drawable.anna_karenina),
+            Livro("E o Vento Levou", "Margaret Mitchell", R.drawable.e_o_vento_levou),
+            Livro("Jane Eyre", "Charlotte Brontë", R.drawable.jane_eyre),
+            Livro("A Culpa é das Estrelas", "John Green", R.drawable.a_culpa_e_das_estrelas),
+            Livro("Como Eu Era Antes de Você", "Jojo Moyes", R.drawable.como_eu_era_antes),
+            Livro("Orgulho e Paixão (versão nacional)", "Nathalia Marques", R.drawable.orgulho_paixao),
+            Livro("A Seleção", "Kiera Cass", R.drawable.a_selecao),
+            Livro("Os Bridgertons: O Duque e Eu", "Julia Quinn", R.drawable.o_duque_e_eu),
+            Livro("Um Dia", "David Nicholls", R.drawable.um_dia),
+            Livro("P.S. Eu Te Amo", "Cecelia Ahern", R.drawable.ps_eu_te_amo),
+            Livro("O Morro dos Ventos Uivantes", "Emily Brontë", R.drawable.morro_dos_ventos),
+            Livro("O Amor nos Tempos do Cólera", "Gabriel García Márquez", R.drawable.amor_nos_tempos),
+            Livro("Me Chame Pelo Seu Nome", "André Aciman", R.drawable.me_chame_pelo_nome),
+            Livro("A Última Música", "Nicholas Sparks", R.drawable.a_ultima_musica),
+            Livro("Querido John", "Nicholas Sparks", R.drawable.querido_john)
+        )
+        recyclerViewLivros = findViewById(R.id.recyclerViewMaisLivros2)
+        recyclerViewLivros.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        recyclerViewLivros.adapter = LivroAdapter(listalivros3)
     }
 }
