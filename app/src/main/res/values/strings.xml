@@ -19,4 +19,6 @@
     <string name="data_nascimento">Data Nascimento</string>
     <string name="autor" tools:ignore="Typos">Autor</string>
     <string name="capalivro">CapaLivro</string>
+    <string name="título" />
+    <string name="t_tulo">Título</string>
 </resources>
