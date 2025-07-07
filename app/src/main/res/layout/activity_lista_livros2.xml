@@ -12,20 +12,20 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="2dp">
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="235dp"
-            android:layout_height="222dp"
+            android:layout_width="223dp"
+            android:layout_height="214dp"
             app:srcCompat="@drawable/bookly_logo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="2dp"
             android:fontFamily="@font/fredoka_one"
-            android:text="Livros disponíveis"
+            android:text="@string/livros_dispon_veis"
             android:textColor="#4D464E"
             android:textSize="28sp" />
 
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/fredoka_one"
-            android:text="Literatura Brasileira"
+            android:text="@string/literatura_brasileira"
             android:textColor="#4D464E"
             android:textSize="28sp" />
 
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/fredoka_one"
-            android:text="Romances"
+            android:text="@string/romances"
             android:textColor="#4D464E"
             android:textSize="28sp" />
 
@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:backgroundTint="#F5F0E3"
-            android:text="Voltar"
+            android:text="@string/voltar"
             android:textColor="#4D464E" />
 
     </LinearLayout>

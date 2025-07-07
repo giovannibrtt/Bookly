@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     android:background="@android:color/transparent"
-    card_view:cardBackgroundColor="#FFE4A8"
+    card_view:cardBackgroundColor="#F5F0E3"
     card_view:cardCornerRadius="16dp"
     card_view:cardElevation="0dp">
 
@@ -21,6 +21,7 @@
             android:id="@+id/imgCapaLivro"
             android:layout_width="120dp"
             android:layout_height="180dp"
+            android:elevation="13sp"
             android:scaleType="fitXY" />
 
         <TextView

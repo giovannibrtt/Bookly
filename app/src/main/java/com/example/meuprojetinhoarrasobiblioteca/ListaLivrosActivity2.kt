@@ -78,7 +78,6 @@ class ListaLivrosActivity2 : AppCompatActivity() {
         recyclerViewLivros.adapter = LivroAdapter(listalivros2)
 
         val listalivros3 = listOf(
-            Livro("O Primo Basílio", "Eça de Queirós", R.drawable.o_primo_basilio),
             Livro("Orgulho e Preconceito", "Jane Austen", R.drawable.orgulho_preconceito),
             Livro("Romeu e Julieta", "William Shakespeare", R.drawable.romeu_julieta),
             Livro("Anna Kariênina", "Liev Tolstói", R.drawable.anna_karenina),

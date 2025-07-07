@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Meu projetinho arraso Biblioteca</string>
+    <string name="literatura_brasileira">Literatura Brasileira</string>
+    <string name="livros_dispon_veis">Livros disponíveis</string>
+    <string name="romances">Romances</string>
+    <string name="voltar">Voltar</string>
 </resources>
