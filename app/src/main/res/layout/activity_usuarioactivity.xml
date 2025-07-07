@@ -51,7 +51,7 @@
         android:backgroundTint="#EFE6D4"
         android:elevation="8dp"
         android:fontFamily="@font/fredoka_one"
-        android:hint="E-mail"
+        android:hint="@string/e_mail"
         android:textColor="#9F988F"
         android:textColorHint="#9F988F"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,7 +68,7 @@
         android:backgroundTint="#3C8D84"
         android:elevation="80dp"
         android:fontFamily="@font/fredoka_one"
-        android:text="Cadastrar"
+        android:text="@string/cadastrar"
         android:textColor="#FFFFFF"
         android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,7 +87,7 @@
         android:backgroundTint="#EFE6D4"
         android:elevation="8dp"
         android:fontFamily="@font/fredoka_one"
-        android:hint="CPF"
+        android:hint="@string/cpf"
         android:textColor="#9F988F"
         android:textColorHint="#9F988F"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -105,7 +105,7 @@
         android:backgroundTint="#EFE6D4"
         android:elevation="8dp"
         android:fontFamily="@font/fredoka_one"
-        android:hint="Telefone"
+        android:hint="@string/telefone"
         android:textColor="#9F988F"
         android:textColorHint="#9F988F"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -121,7 +121,7 @@
         android:layout_height="63dp"
         android:backgroundTint="#E2B84B"
         android:fontFamily="@font/fredoka_one"
-        android:text="Voltar para Menu"
+        android:text="@string/voltar_para_menu"
         android:textColor="#FFFFFF"
         android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -137,7 +137,7 @@
         android:layout_width="204dp"
         android:layout_height="49dp"
         android:fontFamily="@font/fredoka_one"
-        android:text="Cadastre-se"
+        android:text="@string/cadastre_se"
         android:textColor="#4D464E"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -152,7 +152,7 @@
         android:layout_width="204dp"
         android:layout_height="49dp"
         android:fontFamily="@font/fredoka_one"
-        android:text="no bookly"
+        android:text="@string/no_bookly"
         android:textColor="#4D464E"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -162,24 +162,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.199" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="338dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="248dp">
-
-    </com.google.android.material.textfield.TextInputLayout>
-
     <EditText
         android:id="@+id/editTextDate"
         android:layout_width="340dp"
         android:layout_height="50dp"
+        android:autofillHints="Dica"
         android:background="?android:attr/fastScrollPreviewBackgroundLeft"
         android:backgroundTint="#EFE6D4"
         android:elevation="8dp"
         android:ems="10"
         android:fontFamily="@font/fredoka_one"
-        android:hint="Data Nascimento"
+        android:hint="@string/data_nascimento"
         android:inputType="date"
         android:textColor="#9F988F"
         android:textColorHint="#9F988F"
@@ -188,6 +181,6 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText5"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintVertical_bias="0.124" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
