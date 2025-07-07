@@ -4,4 +4,9 @@
     <string name="livros_dispon_veis">Livros disponíveis</string>
     <string name="romances">Romances</string>
     <string name="voltar">Voltar</string>
+    <string name="cadastrar_se">Cadastrar-se</string>
+    <string name="senha">Senha</string>
+    <string name="nome">Nome</string>
+    <string name="entrar">Entrar</string>
+    <string name="logo_do_site">Logo do site</string>
 </resources>
