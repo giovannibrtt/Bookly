@@ -33,7 +33,7 @@
         android:backgroundTint="#EFE6D4"
         android:elevation="8dp"
         android:fontFamily="@font/fredoka_one"
-        android:hint="Nome"
+        android:hint="@string/nome"
         android:textColor="#9F988F"
         android:textColorHint="#9F988F"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -22,7 +22,8 @@
             android:layout_width="120dp"
             android:layout_height="180dp"
             android:elevation="13sp"
-            android:scaleType="fitXY" />
+            android:scaleType="fitXY"
+            android:contentDescription="@string/capalivro"/>
 
         <TextView
             android:id="@+id/txtTituloLivro"
@@ -41,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Autor"
+            android:text="@string/autor"
             android:textAlignment="center"
             android:textColor="#4d464e"
             android:textSize="14sp" />

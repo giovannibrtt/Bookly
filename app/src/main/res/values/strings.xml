@@ -17,4 +17,6 @@
     <string name="cadastre_se">Cadastre-se</string>
     <string name="no_bookly">no bookly</string>
     <string name="data_nascimento">Data Nascimento</string>
+    <string name="autor">Autor</string>
+    <string name="capalivro">CapaLivro</string>
 </resources>
