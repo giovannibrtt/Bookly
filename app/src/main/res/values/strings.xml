@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Meu projetinho arraso Biblioteca</string>
     <string name="literatura_brasileira">Literatura Brasileira</string>
     <string name="livros_dispon_veis">Livros disponíveis</string>
@@ -17,6 +17,6 @@
     <string name="cadastre_se">Cadastre-se</string>
     <string name="no_bookly">no bookly</string>
     <string name="data_nascimento">Data Nascimento</string>
-    <string name="autor">Autor</string>
+    <string name="autor" tools:ignore="Typos">Autor</string>
     <string name="capalivro">CapaLivro</string>
 </resources>
