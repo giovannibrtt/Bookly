@@ -11,8 +11,9 @@
     tools:layout_editor_absoluteX="20dp"
     tools:layout_editor_absoluteY="91dp">
 
-    <View
+    <LinearLayout
         android:id="@+id/view3"
+        android:orientation="vertical"
         android:layout_width="391dp"
         android:layout_height="800dp"
         android:layout_marginTop="46dp"
@@ -27,41 +28,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.846" />
 
-    <Button
-        android:id="@+id/entrar2"
-        android:layout_width="280dp"
-        android:layout_height="63dp"
-        android:backgroundTint="#3C8D84"
-        android:elevation="80dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="@string/entrar"
-        android:textColor="#FFFFFF"
-        android:textSize="19sp"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="265dp"
+        android:layout_height="329dp"
+        android:contentDescription="@string/logo_do_site"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.655"
-        app:rippleColor="#8BC8BD" />
-
-    <Button
-        android:id="@+id/cadastrar"
-        android:layout_width="280dp"
-        android:layout_height="63dp"
-        android:backgroundTint="#F5F0E3"
-        android:elevation="80dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="@string/cadastrar_se"
-        android:textColor="#E2B84B"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
-        app:rippleColor="#8BC8BD" />
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/bookly_logo" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editText9"
@@ -99,17 +77,46 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.376" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="270dp"
-        android:layout_height="327dp"
-        android:contentDescription="@string/logo_do_site"
+    <Button
+        android:id="@+id/entrar2"
+        android:layout_width="280dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#3C8D84"
+        android:elevation="80dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="@string/entrar"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.07"
-        app:srcCompat="@drawable/bookly_logo" />
+        app:layout_constraintVertical_bias="0.655"
+        app:rippleColor="#8BC8BD" />
+
+    <Button
+        android:id="@+id/cadastrar"
+        android:layout_width="280dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#F5F0E3"
+        android:elevation="80dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="@string/cadastrar_se"
+        android:textColor="#E2B84B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        app:rippleColor="#8BC8BD" />
+
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

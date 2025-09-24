@@ -1,7 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <!-- Base application theme. -->
     <style name="Base.Theme.MeuProjetinhoArrasoBiblioteca" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
+
+    <!-- Tema principal -->
+    <style name="Theme.MeuProjetinhoArrasoBiblioteca" parent="Base.Theme.MeuProjetinhoArrasoBiblioteca">
+        <!-- Aqui você pode sobrescrever coisas se quiser -->
+    </style>
+
 </resources>
