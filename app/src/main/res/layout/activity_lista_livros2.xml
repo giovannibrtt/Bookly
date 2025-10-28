@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:fontFamily="@font/fredoka_one"
-            android:text="@string/livros_dispon_veis"
+            android:text="Marketing e Negócios"
             android:textColor="#4D464E"
             android:textSize="28sp" />
 

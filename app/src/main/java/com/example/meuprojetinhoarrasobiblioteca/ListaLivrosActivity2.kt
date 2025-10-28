@@ -32,20 +32,17 @@ class ListaLivrosActivity2 : AppCompatActivity() {
 
         }
         val listaLivros = listOf(
-            Livro("Dom Casmurro","Machado de Assis", R.drawable.domcasmurro),
-            Livro("Jogos Vorazes","Suzanne Collins", R.drawable.jogosvorazes),
-            Livro("1984","George Orwell",R.drawable.mil984),
-            Livro("Harry Potter e a Pedra Filosofal", "J.K. Rowling", R.drawable.harry_potter_pedra),
-            Livro("Revolução dos Bichos", "George Orwell", R.drawable.revolucao_bichos),
-            Livro("O Auto da Barca do Inferno", "Gil Vicente", R.drawable.barca_inferno),
-            Livro("Memórias Póstumas", "Machado de Assis", R.drawable.memorias_postumas),
-            Livro("O Retrato de Dorian Gray", "Oscar Wilde", R.drawable.retrato_dorian),
-            Livro("The Picture of Dorian Gray", "Oscar Wilde", R.drawable.picture_dorian),
-            Livro("O Processo", "Franz Kafka", R.drawable.o_processo),
-            Livro("Harry Potter e a Câmara Secreta", "J.K. Rowling", R.drawable.harry_potter_camara),
-            Livro("Harry Potter e o Prisioneiro de Azkaban", "J.K. Rowling", R.drawable.harry_potter_azkaban),
-            Livro("Harry Potter e as Relíquias da Morte", "J.K. Rowling", R.drawable.harry_potter_reliquias),
-            Livro("Morte Súbita", "J.K. Rowling", R.drawable.morte_subita)
+            Livro("Empreendendo com maestria","Hélio Rodriguess", R.drawable.empreendendocommaestria),
+            Livro("Marketing e Propaganda","Márcia Valéria", R.drawable.marketingepropaganda),
+            Livro("Negociação e conflito","Francisco Gomes",R.drawable.negociacaoeconflito),
+            Livro("Miopia corporativa", "Richard S. Tedlow", R.drawable.miopiacorporativa),
+            Livro("Vender, lucrar, escalar", "Raphael Mattos", R.drawable.venderlucrarescalar),
+            Livro("Domine as Hybrid Skills", "Junior Borneli", R.drawable.domineashybridskills),
+            Livro("Video marketing", "Jon Mowat", R.drawable.videomarketing),
+            Livro("Agile Marketing", "Luis Reyes", R.drawable.agilemarketing),
+            Livro("Cientista do marketing digital", "Dener Lippert", R.drawable.cientistadomarketing),
+            Livro("Estratégias de marketing digital e e-commerce", "Sandra R. Turchi", R.drawable.estrategiasdemarketingdigital),
+
         )
 
         recyclerViewLivros = findViewById(R.id.recyclerViewLivros)
